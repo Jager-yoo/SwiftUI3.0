@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		C1CE241D282A58A8007D4FA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1CE2418282A58A8007D4FA0 /* Assets.xcassets */; };
-		C1CE241E282A58A8007D4FA0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1CE241A282A58A8007D4FA0 /* Preview Assets.xcassets */; };
 		C1CE241F282A58A8007D4FA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CE241B282A58A8007D4FA0 /* ContentView.swift */; };
 		C1CE2420282A58A8007D4FA0 /* SwiftUI3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CE241C282A58A8007D4FA0 /* SwiftUI3App.swift */; };
+		C1CE2429282A656A007D4FA0 /* FeatureTint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CE2428282A656A007D4FA0 /* FeatureTint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C1CE2406282A5872007D4FA0 /* SwiftUI3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1CE2418282A58A8007D4FA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C1CE241A282A58A8007D4FA0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C1CE241B282A58A8007D4FA0 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C1CE241C282A58A8007D4FA0 /* SwiftUI3App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUI3App.swift; sourceTree = "<group>"; };
+		C1CE2428282A656A007D4FA0 /* FeatureTint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureTint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,20 +51,20 @@
 		C1CE2417282A58A8007D4FA0 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				C1CE2418282A58A8007D4FA0 /* Assets.xcassets */,
-				C1CE2419282A58A8007D4FA0 /* Preview Content */,
+				C1CE2421282A59C6007D4FA0 /* Features */,
 				C1CE241B282A58A8007D4FA0 /* ContentView.swift */,
 				C1CE241C282A58A8007D4FA0 /* SwiftUI3App.swift */,
+				C1CE2418282A58A8007D4FA0 /* Assets.xcassets */,
 			);
 			path = Source;
 			sourceTree = "<group>";
 		};
-		C1CE2419282A58A8007D4FA0 /* Preview Content */ = {
+		C1CE2421282A59C6007D4FA0 /* Features */ = {
 			isa = PBXGroup;
 			children = (
-				C1CE241A282A58A8007D4FA0 /* Preview Assets.xcassets */,
+				C1CE2428282A656A007D4FA0 /* FeatureTint.swift */,
 			);
-			path = "Preview Content";
+			path = Features;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +125,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1CE241E282A58A8007D4FA0 /* Preview Assets.xcassets in Resources */,
 				C1CE241D282A58A8007D4FA0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1CE2429282A656A007D4FA0 /* FeatureTint.swift in Sources */,
 				C1CE241F282A58A8007D4FA0 /* ContentView.swift in Sources */,
 				C1CE2420282A58A8007D4FA0 /* SwiftUI3App.swift in Sources */,
 			);
@@ -201,6 +201,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -254,6 +255,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -266,7 +268,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI3/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = A5LBYGCGKX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -295,7 +297,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI3/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = A5LBYGCGKX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
