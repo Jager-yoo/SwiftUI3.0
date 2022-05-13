@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C1C0D7FA282E57F20051703B /* FeatureSwipeActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C0D7F9282E57F20051703B /* FeatureSwipeActions.swift */; };
 		C1CE241D282A58A8007D4FA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1CE2418282A58A8007D4FA0 /* Assets.xcassets */; };
 		C1CE241F282A58A8007D4FA0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CE241B282A58A8007D4FA0 /* ContentView.swift */; };
 		C1CE2420282A58A8007D4FA0 /* SwiftUI3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CE241C282A58A8007D4FA0 /* SwiftUI3App.swift */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C1C0D7F9282E57F20051703B /* FeatureSwipeActions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeatureSwipeActions.swift; sourceTree = "<group>"; };
 		C1CE2406282A5872007D4FA0 /* SwiftUI3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1CE2418282A58A8007D4FA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1CE241B282A58A8007D4FA0 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				C1CE2428282A656A007D4FA0 /* FeatureTint.swift */,
+				C1C0D7F9282E57F20051703B /* FeatureSwipeActions.swift */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1CE2429282A656A007D4FA0 /* FeatureTint.swift in Sources */,
+				C1C0D7FA282E57F20051703B /* FeatureSwipeActions.swift in Sources */,
 				C1CE241F282A58A8007D4FA0 /* ContentView.swift in Sources */,
 				C1CE2420282A58A8007D4FA0 /* SwiftUI3App.swift in Sources */,
 			);
